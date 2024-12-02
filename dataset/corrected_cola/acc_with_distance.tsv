@@ -1,0 +1,339 @@
+Original	Corrected	Label	Edit_Distance
+the boy is here .	The boy is here .	1	0.058823529411764705
+the boy has n't been there .	The boy has n't been there .	1	0.03571428571428571
+the boy likes to read .	The boy likes to read .	1	0.043478260869565216
+the boy knows where to go .	The boy knows where to go.	1	0.07407407407407407
+the boy seems nice .	The boy seems nice .	1	0.05
+the boy is walking .	The boy is walking .	1	0.05
+the boy sleeps here .	The boy sleeps here .	1	0.047619047619047616
+the boy has a problem .	The boy has a problem .	1	0.043478260869565216
+the boy has to go .	The boy has to go .	1	0.05263157894736842
+the boy gets it .	The boy gets it .	1	0.058823529411764705
+the boy has the flu .	The boy has the flu .	1	0.047619047619047616
+the boy feels great .	The boy feels great.	1	0.09523809523809523
+the boy is n't going to come .	The boy is n't going to come .	1	0.03333333333333333
+she is here .	She is here .	1	0.07692307692307693
+she has n't been there .	She hasn't been there.	1	0.125
+she likes to read .	She likes to read.	1	0.10526315789473684
+she knows where to go .	She knows where to go.	1	0.08695652173913043
+she seems nice .	She seems nice .	1	0.0625
+she is walking .	She is walking .	1	0.0625
+she sleeps here .	She sleeps here .	1	0.058823529411764705
+she has a problem .	She has a problem .	1	0.05263157894736842
+she has to go .	She has to go.	1	0.13333333333333333
+she gets it .	She gets it .	1	0.07692307692307693
+she has the flu .	She has the flu.	1	0.11764705882352941
+she feels great .	She feels great.	1	0.11764705882352941
+she is n't going to come .	She is n't going to come.	1	0.07692307692307693
+he is here .	He is here .	1	0.08333333333333333
+he has n't been there .	He hasn't been there .	1	0.08695652173913043
+he likes to read .	He likes to read .	1	0.05555555555555555
+he knows where to go .	He knows where to go.	1	0.09090909090909091
+he seems nice .	He seems nice .	1	0.06666666666666667
+he is walking .	He is walking .	1	0.06666666666666667
+he sleeps here .	He sleeps here .	1	0.0625
+he has a problem .	He has a problem .	1	0.05555555555555555
+he has to go .	He has to go.	1	0.14285714285714285
+he gets it .	He gets it .	1	0.08333333333333333
+he has the flu .	He has the flu.	1	0.125
+he feels great .	He feels great.	1	0.125
+he is n't going to come .	he is n't going to come .	1	0.0
+my friend is here .	my friend is here .	1	0.0
+my friend has n't been there .	my friend hasn't been there .	1	0.03333333333333333
+my friend likes to read .	My friend likes to read .	1	0.04
+my friend knows where to go .	My friend knows where to go.	1	0.06896551724137931
+my friend seems nice .	my friend seems nice .	1	0.0
+my friend is walking .	my friend is walking .	1	0.0
+my friend sleeps here .	my friend sleeps here .	1	0.0
+my friend has a problem .	My friend has a problem .	1	0.04
+my friend has to go .	my friend has to go .	1	0.0
+my friend gets it .	my friend gets it .	1	0.0
+my friend has the flu .	My friend has the flu.	1	0.08695652173913043
+my friend feels great .	My friend feels great.	1	0.08695652173913043
+my friend is n't going to come .	My friend is n't going to come.	1	0.0625
+that guy is here .	That guy is here .	1	0.05555555555555555
+that guy has n't been there .	That guy hasn't been there .	1	0.06896551724137931
+that guy likes to read .	That guy likes to read .	1	0.041666666666666664
+that guy knows where to go .	That guy knows where to go.	1	0.07142857142857142
+that guy seems nice .	That guy seems nice .	1	0.047619047619047616
+that guy is walking .	That guy is walking .	1	0.047619047619047616
+that guy sleeps here .	That guy sleeps here .	1	0.045454545454545456
+that guy has a problem .	That guy has a problem .	1	0.041666666666666664
+that guy has to go .	That guy has to go.	1	0.1
+that guy gets it .	That guy gets it.	1	0.1111111111111111
+that guy has the flu .	That guy has the flu .	1	0.045454545454545456
+that guy feels great .	That guy feels great.	1	0.09090909090909091
+that guy is n't going to come .	That guy is n't going to come.	1	0.06451612903225806
+the dancer is here .	The dancer is here .	1	0.05
+the dancer has n't been there .	The dancer has n't been there .	1	0.03225806451612903
+the dancer likes to read .	The dancer likes to read .	1	0.038461538461538464
+the dancer knows where to go .	The dancer knows where to go.	1	0.06666666666666667
+the dancer seems nice .	the dancer seems nice .	1	0.0
+the dancer is walking .	dancer walking .	1	0.30434782608695654
+the dancer sleeps here .	the dancer sleeps here .	1	0.0
+the dancer has a problem .	The dancer has a problem .	1	0.038461538461538464
+the dancer has to go .	The dancer has to go.	1	0.09090909090909091
+the dancer gets it .	The dancer gets it .	1	0.05
+the dancer has the flu .	The dancer has the flu .	1	0.041666666666666664
+the dancer feels great .	dancer feels great.	1	0.20833333333333334
+the dancer is n't going to come .	The dancer is n't going to come .	1	0.030303030303030304
+everyone is here .	Everyone is here .	1	0.05555555555555555
+everyone has n't been there .	Everyone has n't been there.	1	0.06896551724137931
+everyone likes to read .	Everyone likes to read .	1	0.041666666666666664
+everyone knows where to go .	Everyone knows where to go.	1	0.07142857142857142
+everyone seems nice .	everyone seems nice .	1	0.0
+everyone is walking .	everyone is walking .	1	0.0
+everyone sleeps here .	Everyone sleeps here .	1	0.045454545454545456
+everyone has a problem .	Everyone has a problem.	1	0.08333333333333333
+everyone has to go .	Everyone has to go.	1	0.1
+everyone gets it .	Everyone gets it .	1	0.05555555555555555
+everyone has the flu .	Everyone has the flu.	1	0.09090909090909091
+everyone feels great .	Everyone feels great.	1	0.09090909090909091
+everyone is n't going to come .	Everyone is n't going to come .	1	0.03225806451612903
+mary is here .	mary is here .	1	0.0
+mary has n't been there .	mary hasn't been there .	1	0.04
+mary likes to read .	mary likes to read.	1	0.05
+mary knows where to go .	mary knows where to go.	1	0.041666666666666664
+mary seems nice .	mary seems nice .	1	0.0
+mary is walking .	mary is walking .	1	0.0
+mary sleeps here .	mary sleeps here .	1	0.0
+mary has a problem .	mary has a problem .	1	0.0
+mary has to go .	mary has to go .	1	0.0
+mary gets it .	mary gets it .	1	0.0
+mary has the flu .	mary has the flu .	1	0.0
+mary feels great .	mary feels great.	1	0.05555555555555555
+mary is n't going to come .	mary is n't going to come .	1	0.0
+the doctor is here .	The doctor is here .	1	0.05
+the doctor has n't been there .	The doctor has n't been there .	1	0.03225806451612903
+the doctor likes to read .	The doctor likes to read .	1	0.038461538461538464
+the doctor knows where to go .	The doctor knows where to go.	1	0.06666666666666667
+the doctor seems nice .	The doctor seems nice .	1	0.043478260869565216
+the doctor is walking .	The doctor is walking .	1	0.043478260869565216
+the doctor sleeps here .	The doctor sleeps here .	1	0.041666666666666664
+the doctor has a problem .	The doctor has a problem .	1	0.038461538461538464
+the doctor has to go .	The doctor has to go.	1	0.09090909090909091
+the doctor gets it .	The doctor gets it .	1	0.05
+the doctor has the flu .	The doctor has the flu .	1	0.041666666666666664
+the doctor feels great .	The doctor feels great.	1	0.08333333333333333
+the doctor is n't going to come .	The doctor is n't going to come.	1	0.06060606060606061
+some woman is here .	Some woman is here .	1	0.05
+some woman has n't been there .	Some woman hasn't been there .	1	0.06451612903225806
+some woman likes to read .	Some woman likes to read.	1	0.07692307692307693
+some woman knows where to go .	Some woman knows where to go.	1	0.06666666666666667
+some woman seems nice .	Some woman seems nice .	1	0.043478260869565216
+some woman is walking .	Some woman is walking .	1	0.043478260869565216
+some woman sleeps here .	Some woman sleeps here .	1	0.041666666666666664
+some woman has a problem .	Some woman has a problem.	1	0.07692307692307693
+some woman has to go .	Some woman has to go.	1	0.09090909090909091
+some woman gets it .	Some woman gets it .	1	0.05
+some woman has the flu .	Some women have the flu.	1	0.20833333333333334
+some woman feels great .	Some woman feels great.	1	0.08333333333333333
+some woman is n't going to come .	Some woman is n't going to come.	1	0.06060606060606061
+john is here .	John is here .	1	0.07142857142857142
+john has n't been there .	John hasn't been there .	1	0.08
+john likes to read .	John likes to read.	1	0.1
+john knows where to go .	John knows where to go.	1	0.08333333333333333
+john seems nice .	John seems nice .	1	0.058823529411764705
+john is walking .	John is walking .	1	0.058823529411764705
+john sleeps here .	John sleeps here .	1	0.05555555555555555
+john has a problem .	John has a problem .	1	0.05
+john has to go .	John has to go.	1	0.125
+john gets it .	John gets it .	1	0.07142857142857142
+john has the flu .	John has the flu.	1	0.1111111111111111
+john feels great .	John feels great .	1	0.05555555555555555
+john is n't going to come .	John is n't going to come.	1	0.07407407407407407
+mr. smith is here .	Mr. Smith is here.	1	0.15789473684210525
+mr. smith has n't been there .	Mr. Smith hasn't been there .	1	0.1
+mr. smith likes to read .	Mr. Smith likes to read.	1	0.12
+mr. smith knows where to go .	Mr. Smith knows where to go.	1	0.10344827586206896
+mr. smith seems nice .	Mr. Smith seems nice .	1	0.09090909090909091
+mr. smith is walking .	Mr. Smith walks .	1	0.36363636363636365
+mr. smith sleeps here .	Mr. Smith sleeps here.	1	0.13043478260869565
+mr. smith has a problem .	Mr. Smith has a problem.	1	0.12
+mr. smith has to go .	Mr. Smith has to go.	1	0.14285714285714285
+mr. smith gets it .	Mr. Smith gets it .	1	0.10526315789473684
+mr. smith has the flu .	Mr. Smith has the flu.	1	0.13043478260869565
+mr. smith feels great .	Mr. Smith feels great.	1	0.13043478260869565
+mr. smith is n't going to come .	Mr. Smith is n't going to come.	1	0.09375
+the guest of honor is here .	The guest of honor is here.	1	0.07142857142857142
+the guest of honor has n't been there .	The guest of honor has n't been there.	1	0.05128205128205128
+the guest of honor likes to read .	The guest of honor likes to read .	1	0.029411764705882353
+the guest of honor knows where to go .	The guest of honor knows where to go.	1	0.05263157894736842
+the guest of honor seems nice .	The guest of honor seems nice .	1	0.03225806451612903
+the guest of honor is walking .	The guest of honor is walking.	1	0.06451612903225806
+the guest of honor sleeps here .	The guest of honor sleeps here .	1	0.03125
+the guest of honor has a problem .	The guest of honor has a problem .	1	0.029411764705882353
+the guest of honor has to go .	The guest of honor has to go.	1	0.06666666666666667
+the guest of honor gets it .	The guest of honor gets it .	1	0.03571428571428571
+the guest of honor has the flu .	The guest of honor has the flu.	1	0.0625
+the guest of honor feels great .	The guest of honor feels great.	1	0.0625
+the guest of honor is n't going to come .	The guest of honor is n't going to come.	1	0.04878048780487805
+the boys are here .	The boys are here .	1	0.05263157894736842
+the boys have n't been there .	The boys have n't been there .	1	0.03333333333333333
+the boys like to read .	The boys like to read .	1	0.043478260869565216
+the boys know where to go .	The boys know where to go.	1	0.07407407407407407
+the boys seem nice .	The boys seem nice .	1	0.05
+the boys are walking .	The boys are walking .	1	0.045454545454545456
+the boys sleep here .	The boys sleep here .	1	0.047619047619047616
+the boys have a problem .	The boys have a problem .	1	0.04
+the boys have to go .	The boys have to go .	1	0.047619047619047616
+the boys get it .	The boys get it .	1	0.058823529411764705
+the boys have the flu .	The boys have the flu .	1	0.043478260869565216
+the boys feel great .	The boys feel great .	1	0.047619047619047616
+the boys are n't going to come .	The boys are n't going to come .	1	0.03125
+they are here .	They are here .	1	0.06666666666666667
+they have n't been there .	They haven't been there .	1	0.07692307692307693
+they like to read .	They like to read .	1	0.05263157894736842
+they know where to go .	They know where to go.	1	0.08695652173913043
+they seem nice .	They seem nice .	1	0.0625
+they are walking .	They are walking .	1	0.05555555555555555
+they sleep here .	They sleep here .	1	0.058823529411764705
+they have a problem .	They have a problem .	1	0.047619047619047616
+they have to go .	They have to go.	1	0.11764705882352941
+they get it .	They get it .	1	0.07692307692307693
+they have the flu .	They have the flu.	1	0.10526315789473684
+they feel great .	They feel great.	1	0.11764705882352941
+they are n't going to come .	They are n't going to come .	1	0.03571428571428571
+we are here .	We are here .	1	0.07692307692307693
+we have n't been there .	We have n't been there .	1	0.041666666666666664
+we like to read .	We like to read.	1	0.11764705882352941
+we know where to go .	We know where to go.	1	0.09523809523809523
+we seem nice .	We seem nice .	1	0.07142857142857142
+we are walking .	We are walking .	1	0.0625
+we sleep here .	We sleep here .	1	0.06666666666666667
+we have a problem .	We have a problem.	1	0.10526315789473684
+we have to go .	We have to go.	1	0.13333333333333333
+we get it .	We get it .	1	0.09090909090909091
+we have the flu .	We have the flu.	1	0.11764705882352941
+we feel great .	We feel great.	1	0.13333333333333333
+we are n't going to come .	We are n't going to come .	1	0.038461538461538464
+my friends are here .	My friends are here .	1	0.047619047619047616
+my friends have n't been there .	My friends haven't been there .	1	0.0625
+my friends like to read .	My friends like to read .	1	0.04
+my friends know where to go .	My friends know where to go.	1	0.06896551724137931
+my friends seem nice .	My friends seem nice .	1	0.045454545454545456
+my friends are walking .	My friends are walking .	1	0.041666666666666664
+my friends sleep here .	My friends sleep here.	1	0.08695652173913043
+my friends have a problem .	My friends have a problem .	1	0.037037037037037035
+my friends have to go .	My friends have to go .	1	0.043478260869565216
+my friends get it .	My friends get it .	1	0.05263157894736842
+my friends have the flu .	My friends have the flu.	1	0.08
+my friends feel great .	My friends feel great.	1	0.08695652173913043
+my friends are n't going to come .	My friends are n't going to come.	1	0.058823529411764705
+those guys are here .	those guys are here .	1	0.0
+those guys have n't been there .	those guys haven't been there .	1	0.03125
+those guys like to read .	those guys like to read .	1	0.0
+those guys know where to go .	those guys know where to go.	1	0.034482758620689655
+those guys seem nice .	those guys seem nice .	1	0.0
+those guys are walking .	those guys are walking .	1	0.0
+those guys sleep here .	those guys sleep here .	1	0.0
+those guys have a problem .	those guys have a problem .	1	0.0
+those guys have to go .	those guys have to go .	1	0.0
+those guys get it .	those guys get it .	1	0.0
+those guys have the flu .	those guys have the flu .	1	0.0
+those guys feel great .	those guys feel great .	1	0.0
+those guys are n't going to come .	those guys are n't going to come .	1	0.0
+the dancers are here .	The dancers are here .	1	0.045454545454545456
+the dancers have n't been there .	The dancers have n't been there .	1	0.030303030303030304
+the dancers like to read .	The dancers like to read .	1	0.038461538461538464
+the dancers know where to go .	dancers know where to go .	1	0.13333333333333333
+the dancers seem nice .	the dancers seem nice .	1	0.0
+the dancers are walking .	dancers are walking .	1	0.16
+the dancers sleep here .	dancers sleep here .	1	0.16666666666666666
+the dancers have a problem .	Dancers have a problem .	1	0.17857142857142858
+the dancers have to go .	The dancers have to go .	1	0.041666666666666664
+the dancers get it .	The dancers get it .	1	0.05
+the dancers have the flu .	Dancers have the flu .	1	0.19230769230769232
+the dancers feel great .	The dancers feel great.	1	0.08333333333333333
+the dancers are n't going to come .	The dancers are n't going to come .	1	0.02857142857142857
+most people are here .	Most people are here .	1	0.045454545454545456
+most people have n't been there .	Most people have n't been there .	1	0.030303030303030304
+most people like to read .	Most people like to read.	1	0.07692307692307693
+most people know where to go .	Most people know where to go.	1	0.06666666666666667
+most people seem nice .	Most people seem nice .	1	0.043478260869565216
+most people are walking .	Most people walk .	1	0.32
+most people sleep here .	Most people sleep here .	1	0.041666666666666664
+most people have a problem .	Most people have a problem .	1	0.03571428571428571
+most people have to go .	Most people have to go.	1	0.08333333333333333
+most people get it .	Most people get it .	1	0.05
+most people have the flu .	Most people have the flu.	1	0.07692307692307693
+most people feel great .	Most people feel great.	1	0.08333333333333333
+most people are n't going to come .	Most people are n't going to come.	1	0.05714285714285714
+mary and sarah are here .	mary and sarah are here .	1	0.0
+mary and sarah have n't been there .	mary and sarah haven't been there .	1	0.027777777777777776
+mary and sarah like to read .	mary and sarah like to read.	1	0.034482758620689655
+mary and sarah know where to go .	mary and sarah know where to go.	1	0.030303030303030304
+mary and sarah seem nice .	mary and sarah seem nice .	1	0.0
+mary and sarah are walking .	mary and sarah are walking .	1	0.0
+mary and sarah sleep here .	mary and sarah sleep here .	1	0.0
+mary and sarah have a problem .	mary and sarah have a problem .	1	0.0
+mary and sarah have to go .	mary and sarah have to go.	1	0.037037037037037035
+mary and sarah get it .	mary and sarah get it .	1	0.0
+mary and sarah have the flu .	mary and sarah have the flu.	1	0.034482758620689655
+mary and sarah feel great .	mary and sarah feel great.	1	0.037037037037037035
+mary and sarah are n't going to come .	mary and sarah are n't going to come .	1	0.0
+the doctors are here .	The doctors are here .	1	0.045454545454545456
+the doctors have n't been there .	The doctors have n't been there .	1	0.030303030303030304
+the doctors like to read .	The doctors like to read .	1	0.038461538461538464
+the doctors know where to go .	The doctors know where to go.	1	0.06666666666666667
+the doctors seem nice .	The doctors seem nice .	1	0.043478260869565216
+the doctors are walking .	The doctors are walking .	1	0.04
+the doctors sleep here .	The doctors sleep here .	1	0.041666666666666664
+the doctors have a problem .	The doctors have a problem .	1	0.03571428571428571
+the doctors have to go .	The doctors have to go .	1	0.041666666666666664
+the doctors get it .	The doctors get it .	1	0.05
+the doctors have the flu .	The doctors have the flu .	1	0.038461538461538464
+the doctors feel great .	The doctors feel great.	1	0.08333333333333333
+the doctors are n't going to come .	The doctors are n't going to come .	1	0.02857142857142857
+some women are here .	Some women are here .	1	0.047619047619047616
+some women have n't been there .	Some women haven't been there .	1	0.0625
+some women like to read .	Some women like to read .	1	0.04
+some women know where to go .	Some women know where to go.	1	0.06896551724137931
+some women seem nice .	Some women seem nice .	1	0.045454545454545456
+some women are walking .	Some women are walking .	1	0.041666666666666664
+some women sleep here .	Some women sleep here .	1	0.043478260869565216
+some women have a problem .	Some women have a problem .	1	0.037037037037037035
+some women have to go .	Some women have to go.	1	0.08695652173913043
+some women get it .	Some women get it .	1	0.05263157894736842
+some women have the flu .	Some women have the flu.	1	0.08
+some women feel great .	Some women feel great.	1	0.08695652173913043
+some women are n't going to come .	Some women aren't going to come.	1	0.08823529411764706
+john and his wife are here .	John and his wife are here.	1	0.07142857142857142
+john and his wife have n't been there .	John and his wife haven't been there.	1	0.07692307692307693
+john and his wife like to read .	John and his wife like to read.	1	0.0625
+john and his wife know where to go .	John and his wife know where to go.	1	0.05555555555555555
+john and his wife seem nice .	John and his wife seem nice.	1	0.06896551724137931
+john and his wife are walking .	John and his wife are walking.	1	0.06451612903225806
+john and his wife sleep here .	John and his wife sleep here.	1	0.06666666666666667
+john and his wife have a problem .	John and his wife have a problem.	1	0.058823529411764705
+john and his wife have to go .	John and his wife have to go.	1	0.06666666666666667
+john and his wife get it .	John and his wife get it .	1	0.038461538461538464
+john and his wife have the flu .	John and his wife have the flu.	1	0.0625
+john and his wife feel great .	John and his wife feel great.	1	0.06666666666666667
+john and his wife are n't going to come .	John and his wife are n't going to come.	1	0.04878048780487805
+mr. and mrs. smith are here .	Mr. and Mrs. Smith are here .	1	0.10344827586206896
+mr. and mrs. smith have n't been there .	Mr. and Mrs. Smith have n't been there .	1	0.075
+mr. and mrs. smith like to read .	Mr. and Mrs. Smith like to read.	1	0.12121212121212122
+mr. and mrs. smith know where to go .	Mr. and Mrs. Smith know where to go.	1	0.10810810810810811
+mr. and mrs. smith seem nice .	Mr. and Mrs. Smith seem nice .	1	0.1
+mr. and mrs. smith are walking .	Mr. and Mrs. Smith are walking .	1	0.09375
+mr. and mrs. smith sleep here .	Mr. and Mrs. Smith sleep here .	1	0.0967741935483871
+mr. and mrs. smith have a problem .	Mr. and Mrs. Smith have a problem.	1	0.11428571428571428
+mr. and mrs. smith have to go .	Mr. and Mrs. Smith have to go.	1	0.12903225806451613
+mr. and mrs. smith get it .	Mr. and Mrs. Smith get it .	1	0.1111111111111111
+mr. and mrs. smith have the flu .	Mrs. and Mrs. Smith have the flu.	1	0.15151515151515152
+mr. and mrs. smith feel great .	Mr. and Mrs. Smith feel great.	1	0.12903225806451613
+mr. and mrs. smith are n't going to come .	Mr. and Mrs. Smith are n't going to come.	1	0.09523809523809523
+the guests of honor are here .	The guests of honor are here .	1	0.03333333333333333
+the guests of honor have n't been there .	The guests of honor have n't been there.	1	0.04878048780487805
+the guests of honor like to read .	The guests of honor like to read .	1	0.029411764705882353
+the guests of honor know where to go .	The guests of honor know where to go.	1	0.05263157894736842
+the guests of honor seem nice .	The guests of honor seem nice .	1	0.03225806451612903
+the guests of honor are walking .	walked the guests of honor.	1	0.6060606060606061
+the guests of honor sleep here .	The guests of honor sleep here .	1	0.03125
+the guests of honor have a problem .	The guests of honor have a problem .	1	0.027777777777777776
+the guests of honor have to go .	The guests of honor have to go.	1	0.0625
+the guests of honor get it .	The guests of honor get it .	1	0.03571428571428571
+the guests of honor have the flu .	The guests of honor have the flu .	1	0.029411764705882353
+the guests of honor feel great .	The guests of honor feel great.	1	0.0625
+the guests of honor are n't going to come .	The guests of honor are n't going to come.	1	0.046511627906976744
