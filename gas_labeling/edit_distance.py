@@ -1,32 +1,23 @@
-# 편집거리 말고... 형태소 분석해서 자른다음에 
-# 비교해야할 것 같은데...? 
-# 삽입 삭제 대체? 
-import spacy
+# Levenshtein Distance
+import pandas as pd
 from Levenshtein import distance as levenshtein_distance
 
-# spaCy 모델 로드
-nlp = spacy.load("en_core_web_sm")
+input_file = "/home/nlpgpu7/ellt/suyun/GAS_research/dataset/corrected_cola/unacc_corrected_singular_pl.tsv"
+output_file = "/home/nlpgpu7/ellt/suyun/GAS_research/dataset/corrected_cola/unacc_with_distance.tsv"
 
-def pos_based_edit_distance(original, corrected):
-    # 형태소 및 품사 추출
-    original_tokens = [(token.text, token.pos_) for token in nlp(original)]
-    corrected_tokens = [(token.text, token.pos_) for token in nlp(corrected)]
+# Normalized Edit Distance 계산 함수
+def normalized_edit_distance(original, corrected):
+    edit_distance = levenshtein_distance(original, corrected)
+    max_length = max(len(original), len(corrected))
+    return edit_distance / max_length
 
-    # 품사 포함 토큰 출력 (디버깅용)
-    print(f"Original tokens with POS: {original_tokens}")
-    print(f"Corrected tokens with POS: {corrected_tokens}")
+# 데이터 로드
+df = pd.read_csv(input_file, sep="\t")
 
-    # 형태소와 품사를 조합해 문자열로 변환
-    original_combined = ["_".join(token) for token in original_tokens]
-    corrected_combined = ["_".join(token) for token in corrected_tokens]
+# Edit Distance 계산 및 새로운 열 추가
+df['Edit_Distance'] = df.apply(lambda row: normalized_edit_distance(row['Original'], row['Corrected']), axis=1)
 
-    # Edit Distance 계산
-    return levenshtein_distance(" ".join(original_combined), " ".join(corrected_combined))
+# 결과 저장
+df.to_csv(output_file, sep="\t", index=False)
 
-# 예제 실행
-original_sentence = "the boy are here"
-corrected_sentence = "the boy is here"
-
-distance = pos_based_edit_distance(original_sentence, corrected_sentence)
-print(f"POS-based Edit Distance: {distance}")
-
+print(f"Saved with Edit Distance: {output_file}")

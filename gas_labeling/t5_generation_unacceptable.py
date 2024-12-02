@@ -1,9 +1,10 @@
 import pandas as pd
+import torch
 from transformers import pipeline
 
 
 # 1. Load TSV File
-file_path = "C:/_SY/GAS_research/dataset/cleaned_data/cleaned_singular_pl.tsv"
+file_path = "/home/nlpgpu7/ellt/suyun/GAS_research/dataset/cleaned_data/cleaned_singular_pl.tsv"
 data = pd.read_csv(file_path, sep="\t\t", header=None, skip_blank_lines=True, names=["label", "sentence"])
 
 print(data[:10])
@@ -29,7 +30,8 @@ print(unacceptable_sentences[:5])
 
 
 # 3. Load T5 Model
-gec_model = pipeline("text2text-generation", model="prithivida/grammar_error_correcter_v1")
+device = "cuda" if torch.cuda.is_available() else "cpu"
+gec_model = pipeline("text2text-generation", model="prithivida/grammar_error_correcter_v1", device=0 if device == "cuda" else -1)
 
 
 # 4. Correct sentences grammatically acceptable
@@ -48,7 +50,8 @@ corrected_sentences = correct_sentences(unacceptable_sentences)
 # 5. Result (DataFrame)
 result_df = pd.DataFrame({
     "Original": unacceptable_sentences,
-    "Corrected": corrected_sentences
+    "Corrected": corrected_sentences,
+    "Label" : 0
 })
 
 
@@ -58,7 +61,7 @@ print(result_df.head(10))
 
 
 # 6. Save to TSV
-output_file_path = "C:/_SY/GAS_research/dataset/corrected_singular_pl.tsv"
+output_file_path = "/home/nlpgpu7/ellt/suyun/GAS_research/dataset/corrected_cola/unacc_corrected_singular_pl.tsv"
 result_df.to_csv(output_file_path, sep="\t", index=False)
 
 print(f"\n결과가 저장되었습니다: {output_file_path}")
