@@ -2,8 +2,9 @@ import pandas as pd
 import torch
 from transformers import pipeline
 
-
+categories = ['inchoative', 'reflecxive', 'singular_pl', 'svo', 'wh_extraction']
 # 1. Load TSV File
+# f"/home/nlpgpu7/ellt/suyun/GAS_research/dataset/cleaned_data/cleaned_{singular_pl}.tsv"
 file_path = "/home/nlpgpu7/ellt/suyun/GAS_research/dataset/cleaned_data/cleaned_singular_pl.tsv"
 data = pd.read_csv(file_path, sep="\t\t", header=None, skip_blank_lines=True, names=["label", "sentence"])
 
@@ -33,7 +34,7 @@ def correct_sentences(sentences):
         corrected_output = gec_model(sentence, max_new_tokens=40)
         print(f"Original: {sentence} -> Corrected: {corrected_output[0]['generated_text']}")
         corrected.append(corrected_output[0]['generated_text'])
-    return corrected
+    return corrected.lower()
 
 # Generate grammatically correct sentences
 corrected_sentences = correct_sentences(acceptable_sentences)

@@ -41,7 +41,7 @@ def correct_sentences(sentences):
         corrected_output = gec_model(sentence)
         print(f"Original: {sentence} -> Corrected: {corrected_output[0]['generated_text']}")
         corrected.append(corrected_output[0]['generated_text'])
-    return corrected
+    return corrected.lower()
 
 # Generate grammatically correct sentences
 corrected_sentences = correct_sentences(unacceptable_sentences)
